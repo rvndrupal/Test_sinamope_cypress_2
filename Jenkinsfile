@@ -5,7 +5,7 @@ pipeline {
         stage('Cypress Parallel Test Suite') {
             parallel {
 
-                stage('Node0') {
+                stage('Agent1_1') {
                     agent {
                         label "principal"
                     }
