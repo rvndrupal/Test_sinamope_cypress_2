@@ -10,8 +10,7 @@ pipeline {
                         label "Agent1_1"
                     }
                     steps {
-                        git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'      
-                        bat 'npx cypress cache clear'                 
+                        git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
                         // bat 'npm install cypress --save-dev' 
                         bat 'npx cypress install --force'                          
                         //bat 'npx update'
