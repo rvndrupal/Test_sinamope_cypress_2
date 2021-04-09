@@ -20,7 +20,7 @@ describe("Test Sinamope Animales  ", () =>{
     //     cy.title().should('eq','GOB.MX - SENASICA')
     //     cy.wait(tiempo)
     // })
-    // npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress\integration\sinamope\sinamope.js"
+    // npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress\integration\sinamope\sinamope.js --parallel"
     // npx cypress run   --spec "cypress\integration\sinamope\sinamope.js"  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel
 
     it("Test uno", () =>{
