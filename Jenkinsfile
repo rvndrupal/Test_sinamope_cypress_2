@@ -52,7 +52,7 @@ pipeline {
 
                 stage('Node4') {
                     agent {
-                        label "Agent2_1"
+                        label "Agent1_4"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
@@ -67,7 +67,7 @@ pipeline {
 
                 stage('Node5') {
                     agent {
-                        label "Agent2_2"
+                        label "Agent1_5"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
@@ -82,7 +82,7 @@ pipeline {
 
                  stage('Node6') {
                     agent {
-                        label "Agent2_3"
+                        label "Agent1_6"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
