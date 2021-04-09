@@ -11,8 +11,7 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                      
-                        bat 'npx cypress install --force'
-                        bat 'npx install cypress'
+                        bat 'npx cypress install --force'                       
                         bat 'npx update'
                         bat 'npx cypress run   --spec cypress/integration/sinamope/sinamope.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
                     
@@ -26,8 +25,7 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                      
-                        bat 'npx cypress install --force'
-                        bat 'npx install cypress'
+                        bat 'npx cypress install --force'                       
                         bat 'npx update'
                         bat 'npx cypress run   --spec cypress/integration/sinamope/sinamope.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
                     
@@ -40,8 +38,7 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                       
-                        bat 'npx cypress install --force'
-                        bat 'npx install cypress'
+                        bat 'npx cypress install --force'                       
                         bat 'npx update'
                         bat 'npx cypress run   --spec cypress/integration/sinamope/sinamope.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
                     
