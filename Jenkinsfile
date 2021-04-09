@@ -50,6 +50,53 @@ pipeline {
                     }
                 }
 
+                stage('Node4') {
+                    agent {
+                        label "Agent2_1"
+                    }
+                    steps {
+                        git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
+                        bat 'npm install cypress --save-dev' 
+                        // bat 'npx cypress install --force'                          
+                        //bat 'npx update'
+                        // bat 'npx cypress run   --spec cypress/integration/sinamope/sina.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
+                        bat 'npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress/integration/sinamope/sina2.js --parallel'
+                    
+                    }
+                }
+
+                stage('Node5') {
+                    agent {
+                        label "Agent2_2"
+                    }
+                    steps {
+                        git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
+                        bat 'npm install cypress --save-dev' 
+                        // bat 'npx cypress install --force'                          
+                        //bat 'npx update'
+                        // bat 'npx cypress run   --spec cypress/integration/sinamope/sina.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
+                        bat 'npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress/integration/sinamope/sina2.js --parallel'
+                    
+                    }
+                }
+
+                 stage('Node6') {
+                    agent {
+                        label "Agent2_3"
+                    }
+                    steps {
+                        git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'                    
+                        bat 'npm install cypress --save-dev' 
+                        // bat 'npx cypress install --force'                          
+                        //bat 'npx update'
+                        // bat 'npx cypress run   --spec cypress/integration/sinamope/sina.js  --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8 --parallel'
+                        bat 'npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress/integration/sinamope/sina2.js --parallel'
+                    
+                    }
+                }
+
+
+
 
                 // stage('Node1') {
                 //     agent {
