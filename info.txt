@@ -1,0 +1,49 @@
+Bienvenidos al curso de Cypress.
+
+1.-npm  init
+
+2.-npm install cypress --save-dev  --> Instalación
+
+ 
+
+3.-Npx instalación  https://www.npmjs.com/package/npx
+3.1--> npm install -g npx
+3.2--> npx cypress install --force  --> forzar la Instalación
+
+4.-node_modules\.bin\cypress open
+
+5.- npx cypress open
+
+6.-Parar Consola -->  ctrl + c
+
+
+
+
+
+8.-Key dasboard--> npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8
+
+9.-Comando para corre sinamope--> npx cypress run --record --key 7d09f81b-6d47-4f91-b7e0-9203d2e1f3a8  --spec "cypress\integration\sinamope\sinamope.js"
+
+
+
+10. config git.
+git remote add origin https://github.com/rvndrupal/Test_sinamope_cypress.git
+git branch -M main
+git push -u origin main
+
+
+solucion--> primero git pull luego con el main-->git push -u origin main
+
+otras-->git push -f origin master
+
+
+Esta->>
+git branch -M main
+git remote add origin https://github.com/rvndrupal/Test_sinamope_cypress2.git
+git push -u origin main
+
+
+Página del error.
+https://es.stackoverflow.com/questions/124696/no-puedo-hacer-push-desde-git
+
+con esto git push -f origin main
