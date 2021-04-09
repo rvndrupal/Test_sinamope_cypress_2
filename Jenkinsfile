@@ -5,9 +5,9 @@ pipeline {
         stage('Cypress Parallel Test Suite') {
             parallel {
 
-                stage('Agent1_1') {
+                stage('Node0') {
                     agent {
-                        label "principal"
+                        label "Agent1_1"
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Test_sinamope_cypress_2.git'      
