@@ -43,6 +43,15 @@ git remote add origin https://github.com/rvndrupal/Test_sinamope_cypress2.git
 git push -u origin main
 
 
+Nuevo final.-
+git branch -M main
+git push -u origin main
+############################
+Cambiarlos a master
+git branch -M master
+git remote add origin https://github.com/rvndrupal/Test_sinamope_cypress2.git
+git push -u origin master
+
 Página del error.
 https://es.stackoverflow.com/questions/124696/no-puedo-hacer-push-desde-git
 
